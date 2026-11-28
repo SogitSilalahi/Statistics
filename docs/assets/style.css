@@ -14,49 +14,87 @@ pre code {
 }
 
 
-/* TOC */
+/* =========================================================
+   SIDEBAR / TOC BIRU (Quarto)
+   Selector .book .book-summary milik GitBook/bookdown tidak
+   dikenali Quarto, jadi diganti dengan selector Quarto.
+   ========================================================= */
 
-.book .book-summary {
-    position: absolute;
-    top: 0;
-    left: -300px;
-    bottom: 0;
-    z-index: 1;
-    width: 300px;
-    color: #FFFFFF;
-    background: #315479;
-    border-right: 1px solid rgba(0,0,0,.15);
+#quarto-sidebar,
+#quarto-sidebar.sidebar,
+.sidebar.sidebar-navigation {
+  background: #315479 !important;
+  color: #FFFFFF !important;
+  border-right: 1px solid rgba(0, 0, 0, .15);
+  font-family: 'PT Sans', sans-serif;
 }
 
-.book .book-summary ul.summary li a, .book .book-summary ul.summary li span {
-    margin: 5px 5px 5px 5px;
-    display: block;
-    padding: 10px 20px 10px 20px;
-    color: #FFFFFF;
-    background: 0 0;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
+/* Judul buku dan ikon di bawah foto */
+#quarto-sidebar .sidebar-title,
+#quarto-sidebar .sidebar-title a,
+#quarto-sidebar .sidebar-tools-main a,
+#quarto-sidebar .sidebar-tools-main .bi {
+  color: #FFFFFF !important;
 }
 
-.book .book-summary ul.summary li.active>a {
-    padding-left: 5px;
-    border-radius: 10px 10px 10px 10px;
-    color: #FFFFFF;
-    font-weight: bold;
-    background: rgba(243,242,242,.35);
-    text-decoration: none;
+/* Kotak pencarian */
+#quarto-sidebar #quarto-search .aa-Form,
+#quarto-sidebar .aa-DetachedSearchButton {
+  background: rgba(255, 255, 255, .15) !important;
+  border: 1px solid rgba(255, 255, 255, .35) !important;
+  color: #FFFFFF !important;
+}
+#quarto-sidebar .aa-Input,
+#quarto-sidebar .aa-DetachedSearchButtonPlaceholder,
+#quarto-sidebar .aa-SubmitIcon,
+#quarto-sidebar .aa-DetachedSearchButtonIcon {
+  color: #FFFFFF !important;
+  fill: #FFFFFF !important;
 }
 
-.book .book-summary ul.summary li a:hover {
-    padding-left: 5px;
-    border-radius: 10px 10px 10px 10px;
-    font-weight: bold;
-    color: #FFFFFF;
-    background: rgba(243,242,242,.40);
-    text-decoration: none;
+/* Daftar menu */
+#quarto-sidebar .sidebar-item a,
+#quarto-sidebar .sidebar-item .menu-text,
+#quarto-sidebar .sidebar-link,
+#quarto-sidebar .sidebar-item-text {
+  margin: 2px 5px;
+  padding: 6px 10px;
+  color: #FFFFFF !important;
+  background: transparent;
+  text-decoration: none;
+  border-radius: 10px;
 }
+
+/* Menu aktif */
+#quarto-sidebar .sidebar-item a.active,
+#quarto-sidebar .sidebar-link.active,
+#quarto-sidebar .sidebar-item-container .active {
+  color: #FFFFFF !important;
+  font-weight: bold;
+  background: rgba(243, 242, 242, .35) !important;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* Hover */
+#quarto-sidebar .sidebar-item a:hover,
+#quarto-sidebar .sidebar-link:hover {
+  color: #FFFFFF !important;
+  font-weight: bold;
+  background: rgba(243, 242, 242, .40) !important;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* Garis pemisah dan panah collapse */
+#quarto-sidebar .sidebar-item-toggle,
+#quarto-sidebar .sidebar-item-toggle .bi {
+  color: #FFFFFF !important;
+}
+#quarto-sidebar .sidebar-divider {
+  border-color: rgba(255, 255, 255, .3);
+}
+
 
 /* Tables */
 
@@ -135,12 +173,12 @@ body {
   width: 132px;
   aspect-ratio: 1;
   margin: 1rem auto 1.5rem;
-  background: url("../images/author/Bakti.png") center 26% / cover no-repeat;
+  background: url("../images/author/Sogit.png") center 26% / cover no-repeat;
   border: 4px solid #fff;
   border-radius: 50%;
-  outline: 2px solid #315479;
+  outline: 2px solid #FFFFFF;      /* putih agar terlihat di latar biru */
   outline-offset: 3px;
-  box-shadow: 0 0 0 7px rgba(49, 84, 121, 0.12), 0 10px 24px rgba(0, 40, 70, 0.2);
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.15), 0 10px 24px rgba(0, 40, 70, 0.35);
 }
 
 #penulis .quarto-figure-right {

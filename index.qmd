@@ -1,51 +1,53 @@
 ---
 # title: "Kata Pengantar"
-author: "Bakti Siregar, M.Sc."
+author: "Saut Bona Sogit Silalahi"
 description: "Deskripsi Singkat"
 ---
 
 # Kata Pengantar {.unnumbered}
 
-Dengan mengucap syukur kepada Tuhan Yang Maha Esa, saya sangat senang dapat mempersembahkan eBook **"Quarto Template"** kepada para pembaca dan pengguna. eBook ini disusun sebagai panduan praktis untuk membantu mahasiswa, dosen, peneliti, serta praktisi dalam memanfaatkan Quarto sebagai salah satu perangkat untuk menyusun, mengelola, dan menerbitkan dokumen secara profesional.
+Puji syukur kupanjatkan kepada Tuhan Yang Maha Esa, yang telah menuntun jemari ini hingga sebuah buku kecil bernama **"Quarto Template"** menemukan wujudnya. Kuserahkan ia kepada para pembaca dengan hati lapang, bagi mahasiswa, dosen, peneliti, dan praktisi yang ingin menulis dengan tertata, merawat naskahnya dengan sabar, lalu melepasnya ke dunia dengan percaya diri.
 
-Quarto merupakan perangkat *open-source scientific and technical publishing* yang memungkinkan pengguna mengintegrasikan teks, kode pemrograman, hasil analisis, visualisasi data, serta berbagai elemen pendukung lainnya ke dalam satu dokumen. Dengan Quarto, proses penulisan dan publikasi dapat dilakukan secara lebih terstruktur, reproducible, dan efisien dalam berbagai format keluaran, seperti HTML, PDF, Microsoft Word, serta format publikasi lainnya.
+Quarto adalah ruang menulis yang terbuka bagi siapa saja, sebuah *open-source scientific and technical publishing* tempat kata, kode, angka, dan gambar duduk berdampingan dalam satu naskah. Layaknya sungai yang berhulu satu namun bermuara ke banyak samudra, dari satu tulisan ia mengalir menjadi HTML, PDF, Microsoft Word, dan berbagai bentuk lainnya, tetap jernih dan dapat ditelusuri kembali ke asalnya.
 
 Contoh sitasi: tuliskan `[@xie2015]` untuk merujuk entri `xie2015` di `references/book.bib`. Pada hasil render, sitasinya tampil seperti ini [@xie2015].
 
-Melalui eBook ini, pembaca akan diperkenalkan pada penggunaan template Quarto, mulai dari pengenalan struktur proyek, pengaturan konfigurasi, penulisan dokumen menggunakan Markdown, integrasi kode pemrograman, pengelolaan referensi, hingga proses *rendering* menjadi dokumen yang siap digunakan dan dipublikasikan.
+Di halaman-halaman berikutnya, pembaca kuajak berjalan pelan menyusuri jalan setapak: mengenal rumah bernama struktur proyek, menata pengaturan di dalamnya, menuliskan kalimat dengan Markdown, menitipkan kode di sela-sela cerita, merawat daftar pustaka, hingga *merender* semuanya menjadi karya yang siap dipersembahkan.
 
-Materi disusun secara bertahap agar mudah dipahami dan dipraktikkan, termasuk oleh pengguna yang baru pertama kali mengenal Quarto. Template dan contoh yang disajikan diharapkan dapat menjadi referensi dalam mengembangkan berbagai kebutuhan dokumentasi akademik, laporan penelitian, modul pembelajaran, buku elektronik, maupun publikasi berbasis data.
+Setiap bagian kususun seperti jejak kaki di pasir basah, satu demi satu, agar siapa pun yang baru pertama kali tiba di tepi Quarto tidak merasa tersesat. Semoga contoh dan template di dalamnya menjadi lentera bagi laporan penelitian, modul pembelajaran, buku elektronik, dan karya-karya berbasis data yang kelak lahir dari tangan pembaca.
 
-Saya berharap eBook ini dapat memberikan manfaat nyata dalam mendukung peningkatan literasi digital, produktivitas akademik, dan penerapan praktik penulisan ilmiah yang modern. Lebih dari sekadar panduan teknis, eBook ini diharapkan dapat mendorong pembaca untuk mengeksplorasi berbagai kemampuan Quarto dan mengembangkan template sesuai dengan kebutuhan masing-masing.
+Harapku sederhana: semoga buku ini menjadi benih kecil yang tumbuh menjadi kebiasaan menulis yang rapi, jujur, dan ilmiah, serta menyuburkan literasi digital di sekitar kita. Lebih dari sekadar petunjuk teknis, semoga ia membangkitkan rasa ingin tahu, dan mengantar pembaca merancang template yang paling pas dengan langkahnya sendiri.
 
-Saya menyadari bahwa eBook ini masih memiliki ruang untuk penyempurnaan. Oleh karena itu, kritik, saran, dan masukan dari para pembaca sangat diharapkan sebagai bahan evaluasi untuk pengembangan edisi berikutnya.
+Kusadari tak ada karya yang tuntas tanpa celah. Karena itu pintu selalu terbuka bagi kritik, saran, dan masukan, sebab dari situlah edisi-edisi mendatang akan belajar tumbuh.
 
-Akhir kata, semoga eBook ini dapat menjadi referensi yang bermanfaat dan memberikan kontribusi positif bagi dunia pendidikan, penelitian, dan pengembangan ilmu pengetahuan.
+Akhir kata, semoga buku sederhana ini sampai ke tangan yang tepat, menjadi teduh bagi yang mencari, dan menjadi setitik sumbangsih bagi pendidikan, penelitian, dan ilmu pengetahuan.
 
-**Bakti Siregar, M.Sc.**  
+**Saut Bona Sogit Silalahi**  
 Penulis
 
 
 ## Penulis 
 
-![Foto Bakti Siregar, M.Sc.](images/author/Bakti.png){.author-portrait width=1.5in fig-align="right" fig-pos="H"}
+![Foto Saut Bona Sogit Silalahi](images/author/Sogit.png){.author-portrait width=1.5in fig-align="right" fig-pos="H"}
 
-**[Bakti Siregar, M.Sc., CDS](https://www.linkedin.com/in/dsciencelabs/)** bekerja sebagai Dosen di Prodi Sains Data Institut Teknologi Sains Bandung. Beliau adalah meraih gelar Magister-nya dari Departemen Matematika Terapan (Applied Mathematics) National Sun Yat Sen University, Taiwan. Selain mengajar beliau juga pernah bekerja sebagai **Data Scientist Freelance** di perusahaan-perusahaan ternama seperti [JNE](https://www.jne.co.id/id/beranda), [Samora Group](https://www.samoragroup.co.id/home/en), [Pertamina](https://www.pertamina.com/), dan saat ini masih aktif sebagai **Data Scientist Freelance** di [PT. Green City Traffic](PT. Green City Traffic). Beliau memiliki antusiasme khusus dalam mengerjakan proyek (mengajar) Big Data Analytics, Machine Learning, Optimisasi, dan Analisis Time Series di bidang keuangan dan investasi. Keahlian utama yang dimilikinya adalah bahasa pemrograman Statistik seperti R Studio dan Python. Beliau juga sudah terbiasa dalam mengaplikasikan sistem basis data MySQL/NoSQL untuk manajemen data, serta mahir dalam menggunakan tools Big Data seperti Spark dan Hadoop. Beberapa project beliau dapat dilihat di link berikut: [Rpubs](https://rpubs.com/dsciencelabs), [Github](https://github.com/dsciencelabs), [Website](https://dsciencelabs.github.io/web/index.html), dan [Kaggle](https://www.kaggle.com/baktisiregar/code). 
-
+**[Saut Bona Sogit Silalahi](https://www.linkedin.com/in/saut-bona-sogit-silalahi-7b0a45432/)** Mahasiswa <strong>Data Science</strong> di
+<strong>Institut Teknologi Sains Bandung</strong>,
+dengan fokus pada pengolahan, eksplorasi, dan pemodelan data
+untuk menghasilkan informasi yang bernilai.
 
 ## Ucapan Terima Kasih 
 
-Proses penulisan Tempate eBook ini tidak terlepas dari dukungan berbagai pihak. Saya ingin mengucapkan terima kasih kepada:
+Sebuah buku tak pernah tumbuh dari satu tangan saja. Ia berakar pada banyak kebaikan yang diam-diam menopang, dan kepada merekalah kusampaikan terima kasih yang paling tulus:
 
-* **Keluarga** yang selalu memberikan dukungan moral dan semangat tanpa henti.
-* **Rekan-rekan dan Kolaborator** yang telah memberikan masukan, saran, dan kritik yang konstruktif.
-* Institusi dan Organisasi, Khususnya **[ITSB](https://itsb.ac.id/)** yang telah menyediakan sumber daya dan fasilitas yang diperlukan selama proses penelitian dan penulisan.
+* **Keluarga**, rumah tempat aku selalu pulang, yang doa dan semangatnya menjadi penerang di sepanjang jalan, bahkan ketika langkah mulai lelah.
+* **Rekan-rekan dan para kolaborator**, yang dengan sabar menyumbangkan masukan, saran, dan kritik yang membangun, ibarat tangan-tangan yang membantu merapikan arah layar.
+* **[ITSB](https://itsb.ac.id/)** dan segenap insan di dalamnya, yang membukakan ruang, sumber daya, dan fasilitas, sehingga benih gagasan ini punya tanah untuk tumbuh selama proses penelitian dan penulisan.
 
-Saya berharap Template eBook ini dapat menjadi referensi yang bermanfaat dan memberikan inspirasi serta pengetahuan baru bagi pembaca. Semoga Ebook ini dapat memenuhi ekspektasi dan kebutuhan para pembaca dan semoga ilmu yang disampaikan dapat bermanfaat bagi semua.
+Kuharap Template eBook ini kelak menjadi teman yang berguna di meja baca siapa pun yang membukanya, menghadirkan inspirasi dan secercah pengetahuan baru. Semoga ia menjawab apa yang dicari para pembaca, dan semoga setiap ilmu yang tersampaikan mengalir menjadi manfaat bagi banyak orang.
 
 
 ## Masukan & Saran 
 
-Semua masukan dan tanggapan Anda sangat berarti bagi kami untuk memperbaiki Ebook Quarto Template ini kedepannya. Bagi para pembaca/pengguna yang ingin menyampaikan masukan dan tanggapan, dipersilahkan melalui kontak dibawah ini!
+Setiap masukan dan tanggapan darimu adalah cahaya kecil yang membantu buku ini menemukan arah yang lebih baik. Bila ada yang ingin kamu sampaikan, baik berupa saran, kritik, maupun sekadar sapaan, dengan senang hati kunantikan lewat kontak di bawah ini.
 
-**Email:** dsciencelabs@outlook.com
+**Email:** sogitsilalahi7@gmail.com
